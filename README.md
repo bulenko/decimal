@@ -9,7 +9,7 @@ The s21_decimal. h library is in C programming language. This library adds the p
 
 Compile using Makefile for compiling library and tests (with the goals all, clean, test, s21_decimal.a, gcov_report). The gcov_report goal creates a gcov report in html form.
 
-### Арифметические операторы
+### Арифметические операторы / arithmetic operators
 
 | Название оператора | Оператор  | Функция                                                                            | 
 | ------ | ------ |------------------------------------------------------------------------------------|
