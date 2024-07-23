@@ -11,13 +11,13 @@ Compile using Makefile for compiling library and tests (with the goals all, clea
 
 ### Арифметические операторы / arithmetic operators
 
-| Название оператора | Оператор  | Функция                                                                            | 
+| Название оператора (name) | Оператор (operator) | Функция (function)                                                                            | 
 | ------ | ------ |------------------------------------------------------------------------------------|
-| Сложение | + | int s21_add(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)         |
-| Вычитание | - | int s21_sub(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)         |
-| Умножение | * | int s21_mul(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) | 
-| Деление | / | int s21_div(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) |
-| Остаток от деления | Mod | int s21_mod(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) |
+| Сложение (addition) | + | int s21_add(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)         |
+| Вычитание (subtraction ) | - | int s21_sub(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)         |
+| Умножение (multiplication)| * | int s21_mul(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) | 
+| Деление (division) | / | int s21_div(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) |
+| Остаток от деления (reminder of division) | Mod | int s21_mod(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) |
 
 Функции возвращают код ошибки:  
 - 0 - OK  
@@ -32,7 +32,7 @@ Compile using Makefile for compiling library and tests (with the goals all, clea
 - *Если в результате операции произошло переполнение, то отбрасывается дробная часть (например, 70,000,000,000,000,000,000,000,000,000 % 0.001 = 0.000)*
 
 
-### Операторы сравнение
+### Операторы сравнения
 
 | Название оператора | Оператор  | Функция | 
 | ------ | ------ | ------ |
